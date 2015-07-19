@@ -1,4 +1,4 @@
-var Backbone - require("Backbone");
+var Backbone = require("Backbone");
 var Movie = Backbone.Model.extend({
 	defaults: {
 		title: "default",
@@ -7,3 +7,4 @@ var Movie = Backbone.Model.extend({
 		selected: false
 	}
 });
+module.exports = Movie;
